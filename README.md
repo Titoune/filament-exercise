@@ -12,6 +12,10 @@ A product belongs to a sub category, who belongs to a main category
 -   [Laravel](https://laravel.com/) : Framework PHP, version 9.x
 -   [Filament](https://filamentphp.com/) : Filament is a collection of tools for rapidly building beautiful TALL stack apps, designed for humans.
 
+### Requirements
+- PHP 8.+
+- MariaDB 10.3+ / MySQL 5.7+
+
 ### Setting up
 
 #### Initialisation
@@ -21,9 +25,10 @@ A product belongs to a sub category, who belongs to a main category
 
 #### Commands
 
--   `composer install`
--   `php artisan migrate:refresh --seed`
--   `php artisan serve`
+- `composer install`
+- `php artisan key:generate`
+- `php artisan migrate:refresh --seed`
+- `php artisan serve`
 
 ### Login (url/login/password)
 
